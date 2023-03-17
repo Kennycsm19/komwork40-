@@ -1,0 +1,98 @@
+section.miniad {
+    background-color: var(--celeste);
+}
+section.miniad h3 {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4.5rem;
+    line-height: 47px;
+    padding: 45px 0;
+    color: var(--azul);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.miniad > p {
+    color: var(--naranja);
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 500;
+    padding: 0 30px;
+}
+.cube:nth-child(1) {
+    background-image: url(https://kom.pe/wp-content/uploads/kom-agencia-digital-en-lima-peru-diseno-de-paginas-web-marketing.webp);
+}
+
+.cube {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--azul);
+    background-blend-mode: multiply;
+    width: 90%;
+    max-width: 390px;
+    margin: 20px auto;
+    height: 527px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.cube:nth-child(2) {
+    background-image: url(https://kom.pe/wp-content/uploads/kom-agencia-digital-en-lima-peru-diseno-de-paginas-web.webp);
+}
+
+.cube:nth-child(3) {
+    background-image: url(https://kom.pe/wp-content/uploads/kom-agencia-digital-en-lima-peru-diseno-de-paginas-web-experiencia-de-usuario.webp);
+}
+
+.cube:nth-child(4) {
+    background-image: url(https://kom.pe/wp-content/uploads/kom-agencia-digital-en-lima-peru-diseno-de-paginas-web-campanas-en-google-ads.webp);
+}
+.cube h4 {
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 25px;
+    font-size: 3.8rem;
+    line-height: 39px;
+}
+
+.cube p {
+    font-size: 1.7rem;
+    padding: 0 32px;
+    text-align: center;
+}
+
+.cube a {
+    background-color: var(--naranja);
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 auto;
+    display: table;
+    padding: 15px 30px;
+    border-radius: 38px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: turquoise;
+}
+
+.servicioscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
